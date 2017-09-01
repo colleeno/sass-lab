@@ -11,6 +11,7 @@ To use:
 * set up your html file as usual
 * create a file for your sass, 'main.scss'
 * $sass --watch main.scss:main.css - this will add a .css file and listen and update your changes to .scss
+* link your css file in your html as usual
 
 One alternative is LESS.
 
@@ -18,4 +19,8 @@ Created by Hampton Catlin to add functionality that does not yet exist in CSS. P
 
 I enjoyed learning Sass and understand it's massive appeal. One feature I was disappointed to find, is the inability to set variables based off user interactions. I initially wanted to create a color picker swatch palette, until I realized scss has no way to read the html inputs.
 
-I would recommend the Code School Sass tutorial to anyone interested. It is linked in my project.   
+I would recommend the Code School Sass tutorial to anyone interested. It is linked in my project.
+
+To test out, clone down this repo. You'll want to set the project up to watch for changes to the scss, so type $sass --watch main.scss:main.css.
+Open the project in atom and the index.html file in your browser. Trying changing the $color variable value and see how easy it is to update your entire project with a variable.  
+Look through the .scss and .css files to see how the .scss is translated to .css.
