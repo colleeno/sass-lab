@@ -29,3 +29,5 @@ Relevant questions might be
 To test out, clone down this repo. You'll want to set the project up to watch for changes to the scss, so type $sass --watch main.scss:main.css.
 Open the project in atom and the index.html file in your browser. Trying changing the $color variable value and see how easy it is to update your entire project with a variable.  
 Look through the .scss and .css files to see how the .scss is translated to .css.
+
+NOTE - this is an EXTREME example, and is not a good way to write your styles!

@@ -34,7 +34,8 @@ aside {
       .item-#{$i} {
         background: lighten($color, 10%);
       } $i: $i+2;
-      // targets links with class .item + odd number within the 'aside' parent element
+      // targets links with class .item + odd number within the 'aside' parent element.
+      // example only, this would be much easier with an nth-child(odd) selector
     }
     a {
       display: block;
